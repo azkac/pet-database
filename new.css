@@ -1,0 +1,158 @@
+.text-normal {
+    color: #636464;
+}
+
+.text-gold {
+    color: darkgoldenrod;
+}
+
+.text-rainbow {
+    color: deeppink;
+}
+
+.text-darkmatter {
+    color: purple;
+}
+
+.bg-discord {
+    background: #5865F2;
+}
+
+.bg-purple {
+    background: rebeccapurple;
+}
+
+.bg-basic {
+    background: #969696;
+}
+
+.bg-rare {
+    background: #00ff3a;
+}
+
+.bg-epic {
+    background: #ffd23c;
+}
+
+.bg-legendary {
+    background: #ff2f82;
+}
+
+.bg-mythical {
+    background: #ff7522;
+}
+
+.bg-exclusive {
+    background: #d953f9;
+}
+
+.bg-normal {
+    background: #636464;
+}
+
+.bg-gold {
+    background: darkgoldenrod;
+}
+
+.bg-rainbow {
+    background: deeppink;
+}
+
+.bg-darkmatter {
+    background: purple;
+}
+
+.sidebar .sidebar-content {
+    background: #293042;
+}
+
+#search-form {
+    position: relative;
+}
+
+#div_search_result {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+#div_search_result .list-group-item {
+    text-decoration: none;
+}
+
+#div_search_result .list-group-item img {
+    margin-right: 10px;
+}
+
+.mystyle th {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.mystyle td {
+    font-size: 1rem;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.table {
+    border: none;
+}
+
+.damagetable__row {
+    background-color: white;
+}
+
+.damagetable__cell {
+    padding: 8px;
+}
+
+/*Search Container*/
+.search-container {
+    position: relative;
+}
+
+.petnames-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-width: 250px;
+    max-height: 410px;
+    overflow: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    z-index: 99999;
+    background-color: #202634;
+}
+
+.petnames-dropdown a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px 15px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.petnames-dropdown a:hover {
+    background-color: #141414;
+}
+
+ body table.table-striped>tbody>tr:nth-of-type(odd) {
+     --bs-table-accent-bg: var(--bs-table-striped-bg) !important;
+ }
+
+body table.table-striped>tbody>tr img {
+    width: 50px;
+    min-width: 50px;
+}
+
+body table.table-striped>tbody>tr a {
+    display: block;
+}
